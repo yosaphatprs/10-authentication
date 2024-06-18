@@ -19,3 +19,16 @@ Hasil:
 ![Hasil Soal 1](/assets-report/1.png)
 
 Terdapat error pada acme, karena belum membuat filenya. Yang saya pelajari adalah setup autorisasi pada next.js menggunakan zod dan next-auth.
+
+### Soal 2
+Capture hasil form login yang telah dibuat dan buatlah laporan di README.md.
+
+Jangan lupa push dengan pesan commit: "W10: Jawaban soal 2".
+
+### Jawaban Soal 2
+
+Hasil:
+
+![Hasil Soal 2](/assets-report/2.png)
+
+Saat saya mengerjakan praktikum soal 2, saya selalu mendapatkan error mengenai ```ReferenceError: bcrypt is not defined```, saya mencoba mencari solusi di internet dan menemukan bahwa dapat diatasi menggunakan bcryptjs. Saya menginstall dependency bcryptjs dan menggantikan bcrypt dengan bcryptjs pada file auth.js. Saya juga menginstal dev dependency @types/bcryptjs supaya dapat digunakan pada file typescript.
